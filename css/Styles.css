@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+.section{
+	background-color: white;
+	height: auto;
+}
 
 
 h1 {
@@ -8,11 +12,11 @@ h1 {
 	text-align: center;
 }
 div > p {
-	border: 2px solid black;
+	
   	background-color: #696969;
- 	width: 90%;
-  	margin-right: auto;
-  	margin-left: auto;
+ 	width: 100%;
+  	margin-right: 0px;
+  	margin-left: 0px;
   	font-family: Helvetica;
   	color: white;
   	height: 100%;
@@ -25,7 +29,7 @@ div > p {
 div > h2{
 	text-align: center;
 	background: blue;
-	border: 2px solid black;
+	border: 1px solid black;
 	position: relative;
 	width: 30%;
 	left: 300px;
@@ -35,7 +39,7 @@ div > h2{
 @media (min-width: 991px){
   .section {
     float: left;
-     border: 5px solid red;
+     border: 1px solid black;
      padding: 10px;
   }
   .section {
@@ -45,7 +49,7 @@ div > h2{
 @media (min-width: 768px) and (max-width: 991px){
   .section{
     float: left;
-     border: 5px solid red;
+     border: 1px solid black;
       padding: 10px;
   }
   .section {
@@ -56,7 +60,7 @@ div > h2{
 @media (max-width: 767px ){
   .section{
     float: left;
-     border: 5px solid red;
+     border: 1px solid black;
       padding: 10px;
   }
   .section{
